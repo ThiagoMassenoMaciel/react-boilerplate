@@ -14,6 +14,7 @@ Warning: The `ipfs` service in Fleek SDK will be deprecated. Please use `storage
 🔗 https://wide-fountain-small.on-fleek.app
 
 
+
 # React Boilerplate
 ![React Boilerplate](https://github.com/fleek-tools/react-template/assets/74613246/443647a2-26bd-4872-aafd-fe6a16f0e2f5)
 
