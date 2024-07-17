@@ -29,24 +29,25 @@ Entendi, parece que o problema está relacionado à depreciação do serviço ip
 </br>
 Atualize o SDK do Fleek: Certifique-se de que você está usando a versão mais recente do SDK do Fleek.</br>
 Isso pode resolver problemas de compatibilidade.</br>
-Use o serviço storage: Como a mensagem de erro sugere, você deve usar o serviço storage em vez do ipfs.</br> 
-Verifique a documentação para ver como fazer essa mudança.</br>
+Use o serviço storage: Como a mensagem de erro sugere, você deve usar o serviço storage em vez do ipfs.</br>
+Verifique a documentação para ver como fazer essa mudança.[from docs link](https://fleek.xyz/docs/cli/storage/) </br> 
 Verifique a configuração do seu projeto: Certifique-se de que todas as configurações no seu arquivo `.fleek.json` estão corretas e atualizadas.</br>
 Aqui está um exemplo de como pode ser configurado:</br>
 JSON</br>
 </br>
 </br>
-{</br>
-  "build": {</br>
-    "image": "node:alpine",</br>
-    "command": "npm install && npm run build",</br>
-    "publicDir": "build",</br>
-    "environment": {</br>
-      "NODE_ENV": "production"</br>
-    }</br>
-  }</br>
-}</br>
-</br>
+```
+{
+  "build": {
+    "image": "node:alpine",
+    "command": "npm install && npm run build",
+    "publicDir": "build",
+    "environment": {
+      "NODE_ENV": "production"
+    }
+  }
+}
+```
 Reinicie o deploy: Após fazer as alterações necessárias, tente reiniciar o deploy com o comando:
 fleek sites deploy
 </br>
