@@ -14,7 +14,7 @@ Warning: The `ipfs` service in Fleek SDK will be deprecated. Please use `storage
 💡 You can access it through the gateway:`</br>
 🔗 https://wide-fountain-small.on-fleek.app
 
-# modito do erro 
+# modivo do erro 
 |
 eu estava fazendo um deploy no do site fleek , e n deu certo ...</br>
 apareceu este erro "Warning: The `ipfs` service in Fleek SDK will be deprecated.</br>
