@@ -14,7 +14,45 @@ Warning: The `ipfs` service in Fleek SDK will be deprecated. Please use `storage
 💡 You can access it through the gateway:`</br>
 🔗 https://wide-fountain-small.on-fleek.app
 
-
+# modito do erro 
+|
+eu estava fazendo um deploy no do site fleek , e n deu certo ...</br>
+apareceu este erro "Warning: The `ipfs` service in Fleek SDK will be deprecated.</br>
+Please use `storage` service instead</br>
+❌ Error: Upload failed."   </br>
+segui todos os passos e depois de executar o comando no terminal "fleek sites deploy"</br>   
+ele apareceu a mensagem de erro que te enviei .</br> 
+Para vc ia me ajudar a proceder com o meu deploy .</br> 
+E para vc fazer mais rapido deixo aqui o link da documentação do site fleek aap.fleek.xzy (https://fleek.xyz/docs/cli/)</br>
+</br>
+Entendi, parece que o problema está relacionado à depreciação do serviço ipfs no SDK do Fleek. Aqui estão alguns passos que você pode seguir para resolver o problema:
+</br>
+Atualize o SDK do Fleek: Certifique-se de que você está usando a versão mais recente do SDK do Fleek.</br>
+Isso pode resolver problemas de compatibilidade.</br>
+Use o serviço storage: Como a mensagem de erro sugere, você deve usar o serviço storage em vez do ipfs.</br> 
+Verifique a documentação para ver como fazer essa mudança.</br>
+Verifique a configuração do seu projeto: Certifique-se de que todas as configurações no seu arquivo `.fleek.json` estão corretas e atualizadas.</br>
+Aqui está um exemplo de como pode ser configurado:</br>
+JSON</br>
+</br>
+</br>
+{</br>
+  "build": {</br>
+    "image": "node:alpine",</br>
+    "command": "npm install && npm run build",</br>
+    "publicDir": "build",</br>
+    "environment": {</br>
+      "NODE_ENV": "production"</br>
+    }</br>
+  }</br>
+}</br>
+</br>
+Reinicie o deploy: Após fazer as alterações necessárias, tente reiniciar o deploy com o comando:
+fleek sites deploy
+</br>
+Se o problema persistir, você pode consultar a documentação do Fleek para mais detalhes ou abrir um ticket de suporte no site do Fleek12.</br>
+1: Fleek Documentation - Site Deployment 2: Fleek Support - Deploy fails with no error message</br>
+Saiba mais 1docs.fleek.co______2support.fleek.xyz______3docs.fleek.co___4docs.fleek.co____5github.com</br>
 
 # React Boilerplate
 ![React Boilerplate](https://github.com/fleek-tools/react-template/assets/74613246/443647a2-26bd-4872-aafd-fe6a16f0e2f5)
