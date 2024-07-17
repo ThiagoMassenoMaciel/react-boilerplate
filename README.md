@@ -2,15 +2,16 @@
 `💡 Please follow the setup instructions to create a valid configuration file.
 
 ✔ We've found existing sites. Would you like to link to one of them? … yes
-✔ Select site from the list › exerciseZEROfleek
-✔ Please specify the directory containing the site files to be uploaded … .
-✔ Would you like to include the optional "build" command? … no
-✔ Select a format for saving the site's configuration: › JSON (fleek.config.json)
-Warning: The `ipfs` service in Fleek SDK will be deprecated. Please use `storage` service instead
-✅ Success! Deployed!
-
-> Site IPFS Content Identifier (CID): QmV4eyichqU7LCF7ZPWLnrDurqpnvGN5GCGqEoYdaVYRmN
-💡 You can access it through the gateway:`
+</br>
+✔ Select site from the list › exerciseZEROfleek</br>
+✔ Please specify the directory containing the site files to be uploaded … .</br>
+✔ Would you like to include the optional "build" command? … no</br>
+✔ Select a format for saving the site's configuration: › JSON (fleek.config.json)</br>
+Warning: The `ipfs` service in Fleek SDK will be deprecated. Please use `storage` service instead</br>
+✅ Success! Deployed!</br>
+</br>
+> Site IPFS Content Identifier (CID): QmV4eyichqU7LCF7ZPWLnrDurqpnvGN5GCGqEoYdaVYRmN</br>
+💡 You can access it through the gateway:`</br>
 🔗 https://wide-fountain-small.on-fleek.app
 
 
