@@ -1,4 +1,4 @@
-# nao deu certo usando template
+# nao deu certo fazer o deploy pelo fleek , apartir de um template react
 `💡 Please follow the setup instructions to create a valid configuration file.
 
 ✔ We've found existing sites. Would you like to link to one of them? … yes
