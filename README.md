@@ -1,5 +1,5 @@
 # nao deu certo usando template
-💡 Please follow the setup instructions to create a valid configuration file.
+`💡 Please follow the setup instructions to create a valid configuration file.
 
 ✔ We've found existing sites. Would you like to link to one of them? … yes
 ✔ Select site from the list › exerciseZEROfleek
@@ -10,7 +10,7 @@ Warning: The `ipfs` service in Fleek SDK will be deprecated. Please use `storage
 ✅ Success! Deployed!
 
 > Site IPFS Content Identifier (CID): QmV4eyichqU7LCF7ZPWLnrDurqpnvGN5GCGqEoYdaVYRmN
-💡 You can access it through the gateway:
+💡 You can access it through the gateway:`
 🔗 https://wide-fountain-small.on-fleek.app
 
 
